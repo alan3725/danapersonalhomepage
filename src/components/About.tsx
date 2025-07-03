@@ -43,7 +43,7 @@ const About = () => {
               
               <div className="flex items-center space-x-3 text-slate-700 dark:text-slate-300">
                 <Calendar size={20} className="text-indigo-600 dark:text-indigo-400" />
-                <span>Born: January 15, 1995</span>
+                <span>Born: Jakarta, Indonesia</span>
               </div>
               
               <div className="flex items-center space-x-3 text-slate-700 dark:text-slate-300">
@@ -53,7 +53,7 @@ const About = () => {
               
               <div className="flex items-center space-x-3 text-slate-700 dark:text-slate-300">
                 <Briefcase size={20} className="text-indigo-600 dark:text-indigo-400" />
-                <span>5+ Years Experience</span>
+                <span>2 Years Experience</span>
               </div>
             </div>
           </div>

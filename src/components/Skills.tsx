@@ -10,18 +10,18 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState<'all' | 'frontend' | 'backend' | 'other'>('all');
   
   const skills: Skill[] = [
-    { name: 'HTML', level: 95, category: 'frontend' },
-    { name: 'CSS', level: 90, category: 'frontend' },
-    { name: 'JavaScript', level: 85, category: 'frontend' },
-    { name: 'React', level: 85, category: 'frontend' },
-    { name: 'Tailwind CSS', level: 90, category: 'frontend' },
-    { name: 'TypeScript', level: 80, category: 'frontend' },
-    { name: 'Node.js', level: 80, category: 'backend' },
-    { name: 'Express', level: 75, category: 'backend' },
-    { name: 'MongoDB', level: 70, category: 'backend' },
+    { name: 'HTML', level: 85, category: 'frontend' },
+    { name: 'CSS', level: 85, category: 'frontend' },
+    { name: 'JavaScript', level: 75, category: 'frontend' },
+    { name: 'React', level: 75, category: 'frontend' },
+    { name: 'Next.js', level: 70, category: 'backend' },
+    { name: 'Tailwind CSS', level: 80, category: 'frontend' },
+    { name: 'TypeScript', level: 70, category: 'frontend' },
+    { name: 'Node.js', level: 70, category: 'backend' },
+    { name: 'Express', level: 50, category: 'backend' },
+    { name: 'MongoDB', level: 50, category: 'backend' },
     { name: 'PostgreSQL', level: 65, category: 'backend' },
     { name: 'Git', level: 85, category: 'other' },
-    { name: 'Docker', level: 70, category: 'other' },
   ];
   
   const filteredSkills = activeTab === 'all' 

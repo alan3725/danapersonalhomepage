@@ -1,5 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+import profilePhoto from '../assets/profile_photo.jpg';
 
 const Hero = () => {
   const { theme } = useTheme();
@@ -80,7 +81,7 @@ const Hero = () => {
             <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-600 p-1">
               <div className="absolute inset-1 rounded-full bg-white dark:bg-slate-900 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src= {profilePhoto} 
                   alt="Dana Maulana" 
                   className="w-full h-full object-cover"
                 />
